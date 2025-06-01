@@ -1,5 +1,6 @@
-// Copyright (c) 2025 Félix-Olivier Dumas. All rights reserved.
+// Copyright (c) 2025 FÃ©lix-Olivier Dumas. All rights reserved.
 // Licensed under the terms described in the LICENSE file
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <iostream>
@@ -24,7 +25,7 @@ inline std::ostream& operator<<(std::ostream& stream, const IPrintable& obj) {
     return stream;
 }
 
-class IOperable { // Trop complexe à implémenter
+class IOperable { // Trop complexe Ã  implÃ©menter
 public:
     virtual ~IOperable() = default;
     virtual std::unique_ptr<IOperable> operator+(const IOperable& other) const = 0;
@@ -357,7 +358,7 @@ public:
     void setRotation(const float& angle) override { _angle.setRotation(angle); }
     void rotate(const float& angle) override { _angle.rotate(angle); }
 
-    void zoom(const float& factor) override { /* [À FINIR] */ }
+    void zoom(const float& factor) override { /* [Ã€ FINIR] */ }
 };
 
 class Sprite : public virtual ITexturable {
@@ -549,8 +550,8 @@ public:
         /* Detecter les collisions hors d'ici
            Et gerer les effets de cette collision
            Dans cette methode (genre ne pas permettre
-           De traverser l'objet)... Peut-être penser
-           à faire une classe abstraite quelque part pour
+           De traverser l'objet)... Peut-Ãªtre penser
+           Ã  faire une classe abstraite quelque part pour
            move, scale et tout car ils sont communs [FAIT] */
     }
 
@@ -559,7 +560,7 @@ public:
     void handleInput(SDL_Renderer* renderer, const SDL_Event& event) override {
         if (event.type == SDL_KEYDOWN) {
             if (event.key.keysym.sym == SDLK_SPACE) {
-                std::cout << "Espace pressée !" << std::endl;
+                std::cout << "Espace pressÃ©e !" << std::endl;
             }
             else if (event.key.keysym.sym == SDLK_w) {
                 //move(Vector2(0, -15));
@@ -797,7 +798,7 @@ int main(int argc, char* argv[]) {
     playerSprite.loadFromFile("assets/images/mario_sprite.png");
     playerSprite.convertToTexture(renderer);
 
-    //playerSprite.testImageLoad("C:/Users/Félix-Olivier Dumas/Documents/Programmation/Crystal Engine/assets/images/mario_sprite.png", renderer);
+    //playerSprite.testImageLoad("C:/Users/FÃ©lix-Olivier Dumas/Documents/Programmation/Crystal Engine/assets/images/mario_sprite.png", renderer);
 
     Position playerPosition(Vector2(-200.0f, -100.0f));
     Size playerSize(775.0f, 600.0f);
