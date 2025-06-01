@@ -1,0 +1,38 @@
+﻿  Crystal Engine.cpp
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(537,1): warning C4250: 'Actor' : hérite de 'GameObject::GameObject::move' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(493,10):
+  voir la déclaration de 'GameObject::move'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(537,1): warning C4250: 'Actor' : hérite de 'GameObject::GameObject::setPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(490,10):
+  voir la déclaration de 'GameObject::setPosition'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(537,1): warning C4250: 'Actor' : hérite de 'GameObject::GameObject::currentPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(491,13):
+  voir la déclaration de 'GameObject::currentPosition'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(589,1): warning C4250: 'Player' : hérite de 'GameObject::GameObject::move' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(493,10):
+  voir la déclaration de 'GameObject::move'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(589,1): warning C4250: 'Player' : hérite de 'GameObject::GameObject::setPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(490,10):
+  voir la déclaration de 'GameObject::setPosition'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(589,1): warning C4250: 'Player' : hérite de 'GameObject::GameObject::currentPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(491,13):
+  voir la déclaration de 'GameObject::currentPosition'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(609,1): warning C4250: 'Enemy' : hérite de 'GameObject::GameObject::move' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(493,10):
+  voir la déclaration de 'GameObject::move'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(609,1): warning C4250: 'Enemy' : hérite de 'GameObject::GameObject::setPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(490,10):
+  voir la déclaration de 'GameObject::setPosition'
+  
+C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(609,1): warning C4250: 'Enemy' : hérite de 'GameObject::GameObject::currentPosition' via la dominance
+  C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\Crystal Engine.cpp(491,13):
+  voir la déclaration de 'GameObject::currentPosition'
+  
+  Crystal Engine.vcxproj -> C:\Users\Félix-Olivier Dumas\Documents\Programmation\Crystal Engine\x64\Debug\Crystal Engine.exe
