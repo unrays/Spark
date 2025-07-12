@@ -36,7 +36,7 @@ inline std::ostream& operator<<(std::ostream& stream, const IPrintable& obj) {
     return stream;
 }
 
-class IOperable { // Trop complexe à implémenter
+class IOperable { // Trop complexe à implémenter pour le moment
 public:
     virtual ~IOperable() = default;
     virtual std::unique_ptr<IOperable> operator+(const IOperable& other) const = 0;
