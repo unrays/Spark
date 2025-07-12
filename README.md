@@ -1,4 +1,4 @@
-# Crystal Engine - Skills Showcase
+# Crystal Engine
 
 This project is a personal showcase developed at the end of my second year studying Computer Science Techniques at Cégep de Rimouski.  
 It is a minimalist 2D game engine written in C++ using SDL2, built entirely from scratch.
