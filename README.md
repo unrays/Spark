@@ -1,5 +1,4 @@
 # Crystal Engine
-june
 
 This project is a personal showcase developed at the end of my second year studying Computer Science Techniques at Cégep de Rimouski.  
 It is a minimalist 2D game engine written in C++ using SDL2, built entirely from scratch.
@@ -10,7 +9,7 @@ It demonstrates my technical skills in object-oriented programming, input handli
 This engine serves as a foundation for future improvements and projects I plan to develop.
 
 ```cpp
-// Copyright (c) 2025 Félix-Olivier Dumas. All rights reserved.
+// Copyright (c) May 2025 Félix-Olivier Dumas. All rights reserved.
 // Licensed under the terms described in the LICENSE file
 
 #include <SDL.h>
