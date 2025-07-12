@@ -809,7 +809,7 @@ int main(int argc, char* argv[]) {
     playerSprite.loadFromFile("assets/images/mario_sprite.png");
     playerSprite.convertToTexture(renderer);
 
-    //playerSprite.testImageLoad("C:/Users/Félix-Olivier Dumas/Documents/Programmation/Crystal Engine/assets/images/mario_sprite.png", renderer);
+    //playerSprite.testImageLoad("C:/Users/XXXXXXXXXX/Documents/Programmation/Crystal Engine/assets/images/sprite.png", renderer);
 
     Position playerPosition(Vector2(-200.0f, -100.0f));
     Size playerSize(775.0f, 600.0f);
