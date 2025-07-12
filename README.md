@@ -22,8 +22,6 @@ This engine serves as a foundation for future improvements and projects I plan t
 #include <tuple>
 
 std::vector<SDL_Rect> sceneObjects;
-SDL_Rect playerActor = { 25, 25, 50, 40 };
-Uint8 playerColorR = 0, playerColorG = 255, playerColorB = 0;
 
 class IPrintable {
 public:
