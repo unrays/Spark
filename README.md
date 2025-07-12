@@ -9,7 +9,7 @@ It demonstrates my technical skills in object-oriented programming, input handli
 This engine serves as a foundation for future improvements and projects I plan to develop.
 
 ```cpp
-// Copyright (c) May 2025 Félix-Olivier Dumas. All rights reserved.
+// Copyright (c) 2025 Félix-Olivier Dumas. All rights reserved.
 // Licensed under the terms described in the LICENSE file
 
 #include <SDL.h>
