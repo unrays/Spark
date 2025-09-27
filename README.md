@@ -11,7 +11,7 @@ This engine serves as a foundation for future improvements and projects I plan t
 Please note: In hindsight, this project presents numerous architectural errors. It generally does not apply SOLID principles correctly and breaks many of these rules. If I had to do it again, there would be numerous modifications to be made to the architecture. I will not touch it since it is the archive of my very first step into 2D game engines and it means a lot to me. written on September 27, 2025
 
 ```cpp
-// Copyright (c) 2025 Félix-Olivier Dumas. All rights reserved.
+// Copyright (c) May 2025 Félix-Olivier Dumas. All rights reserved.
 // Licensed under the terms described in the LICENSE file
 
 #include <SDL.h>
